@@ -1,6 +1,15 @@
 # Automatic Stress Threshold and Type Detection
 
 ## Configure
+Data preparation:
+Before running the workflow, extract the relevant crop data archive
+(Maize data.zip, Potato data.zip, or Wheat data.zip) and place the selected
+crop-country input file in the data/ folder as:
+
+combined_nonstandardized_data.xlsx
+
+Alternatively, set DATA_FILE in config.py to the full path of the selected input file.
+
 
 Edit only `config.py`:
 
